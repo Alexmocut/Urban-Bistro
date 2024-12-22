@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Mocuț Alexandru">
+    <meta name="keywords" content="restaurant, meniu, mâncare, băutură">
+    <meta name="description" content="Restaurantul „Urban Bistro” este un loc contemporan, cu un design minimalist și un meniu inovator, care îmbină influențe internaționale cu produse locale de sezon. Atmosfera vibrantă și relaxată îl face ideal pentru întâlniri cu prietenii sau cine de afaceri.">
+
+    
+      <title>Urban Bistro</title>
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+      <style>
+       .section { padding: 60px 20px; }
+  .bg-primary-light { background-color: #eef2f7; }
+  .bg-home { background-color: #add8e6; } 
+  .bg-contact { background-color: #add8e6; } 
+  .bg-team { background-color: #87CEEB; } 
+  .bg-footer {
+    background-color: #343a40;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  border-radius: 5px;
+}
+p {
+    font-size: 1.1rem; }
+
+
+  
+</style>
+
+      
+    </head>
+    <body>
+     
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="cutit.png".png alt="logo" width="30" height="30" class="d-inline-block align-text-top">
+            Urban Bistro
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#acasă">Acasă</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#meniu">Meniu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#echipă">Echipa Noastră</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+     
+      <header>
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="restaurant.jpg" alt="restaurant">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bun venit la Urban Bistro</h5>
+                <p>Descoperiți o experiență culinară unică.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="relax.jpg" alt="femeie">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Atmosferă Relaxantă</h5>
+                <p>Locul perfect pentru a vă bucura de o masă delicioasă.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="ingrediente proaspete.jpg" alt="ingrediente">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ingrediente Proaspete</h5>
+                <p>Preparate din cele mai bune ingrediente locale.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="eveniment special.jpg" alt="eveniment">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Evenimente Speciale</h5>
+                <p>Organizăm seri tematice și evenimente private.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="desert.jpg" alt="desert">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Deserturi Delicioase</h5>
+                <p>Încheiați masa cu un desert irezistibil.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+    
+      
+      <section id="acasă" class="section bg-home text-white text-center">
+        <div class="container">
+          <h2>Acasă</h2>
+          <p>Bine ați venit la Urban Bistro, locul unde gusturile rafinate întâlnesc atmosfera prietenoasă. Vă invităm să explorați preparatele noastre savuroase, gătite cu dragoste și pasiune.</p>
+        </div>
+      </section>
+    
+      <section id="meniu" class="section bg-primary-light text-center">
+        <div class="container">
+          <h2>Meniul Nostru</h2>
+          <p>Descoperiți o selecție variată de preparate, de la gustări ușoare până la feluri principale elaborate.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pasta.jpg" class="card-img-top" alt="paste bolognese">
+                <div class="card-body">
+                  <h5 class="card-title">Paste Bolognese</h5>
+                  <p class="card-text">Preț: 35 RON</p>
+                  <span class="badge bg-success">Disponibil</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="pizza.jpg" class="card-img-top" alt="pizza">
+                <div class="card-body">
+                  <h5 class="card-title">Pizza Diavola</h5>
+                  <p class="card-text">Preț: 40 RON</p>
+                  <span class="badge bg-danger">Ofertă Specială</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="ciorba.jpg" class="card-img-top" alt="ciorba de vacuta">
+                <div class="card-body">
+                  <h5 class="card-title">Ciorbă de văcuță</h5>
+                  <p class="card-text">Preț: 25 RON</p>
+                  <span class="badge bg-success">Disponibil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="echipă" class="section bg-team text-white text-center">
+        <div class="container">
+            <h2>Echipa Noastră</h2>
+            <p>La Urban Bistro, ne mândrim cu o echipă talentată și dedicată, care lucrează pentru a vă oferi cele mai bune experiențe culinare.</p>
+            <div class="row align-items-center">
+               
+                <div class="col-md-6 text-md-start">
+                    <h3>Bucătari</h3>
+                    <p>Chef-ii noștri sunt experți în arta culinară, aducând creativitate și pasiune în fiecare farfurie.</p>
+                    <h3>Personal</h3>
+                    <p>Echipa noastră de servire este prietenoasă și profesionistă, asigurându-se că fiecare client se simte special.</p>
+                </div>
+                
+               
+                <div class="col-md-6">
+                    <div class="card bg-light text-dark" style="padding-top: 20px;">
+                        <img src="chef.jpg" class="card-img-top" alt="Chef" style="width: 80%; margin: 0 auto; padding-top: 10px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Chef Principal</h4>
+                            <p class="card-text">Alexandru Mocuț este chef-ul nostru principal, cu peste 10 ani de experiență în bucătăria internațională. El creează preparate inovatoare care îmbină tehnici moderne cu ingrediente tradiționale.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <section id="contact" class="section bg-contact text-white text-center">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Pentru rezervări sau informații, ne puteți contacta la:</p>
+          <p><strong>Telefon:</strong> +40 123 456 789</p>
+          <p><strong>Email:</strong> contact@urbanbistro.ro</p>
+          <p><strong>Adresa:</strong> Strada Principală nr. 123, București</p>
+        </div>
+      </section>
+
+  
+<footer class="bg-footer text-white py-4">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+          <p>&copy; 2024 Urban Bistro. Toate drepturile rezervate.</p>
+        </div>
+        
+        
+        <div class="col-md-4 text-center">
+          <p><strong>Telefon:</strong> +40 123 456 789</p>
+          <p><strong>Email:</strong> contact@urbanbistro.ro</p>
+        </div>
+        
+        
+        <div class="col-md-4 text-center text-md-end">
+          <a href="https://facebook.com" target="_blank" class="text-white mx-2">
+            <i class="bi bi-facebook fs-4"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="text-white mx-2">
+            <i class="bi bi-instagram fs-4"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="text-white mx-2">
+            <i class="bi bi-twitter fs-4"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="text-white mx-2">
+            <i class="bi bi-linkedin fs-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    </body>
